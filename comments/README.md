@@ -19,3 +19,8 @@
 * `网址` http://blog.csdn.net/mindfloating/article/details/8121479
 * `关键字` 事务
 * `推荐理由` 介绍redis的事务支持方式以及为什么采用了非ACID型事务。
+## Cook's comment 2017/12/27
+### `题目`  redis持久化原理详解
+* `网址` http://blog.csdn.net/yujin2010good/article/details/54729818
+* `关键字` redis持久化
+* `推荐理由` 介绍redis持久化的两种方式，解释了小龙提出的“redis备份数据不能超过内存大小”的问题。
