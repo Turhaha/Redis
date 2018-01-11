@@ -37,6 +37,7 @@ Flume/SDK  ->   Kafka   ->     spark/storm     ->    Redis/HBase
 
 ###  Kafka与Flume
 Flume框架实时收集数据，并不是存储数据，收集的数据要给存储系统
+
     1. KAFKA作为sink  --  最多
 
         接收数据并存储
@@ -51,6 +52,7 @@ Flume框架实时收集数据，并不是存储数据，收集的数据要给存
 
 
 ###  KAFKA与Spark集成
+
 1. 方式一： push
 
   Flume/KAFKA 将数据推送给Spark，就需要Receivers接受数据，被动性，推送
@@ -64,4 +66,4 @@ Flume框架实时收集数据，并不是存储数据，收集的数据要给存
      
 此种情况就没有Receivers Task，不会出现数据未处理或者多出力
 比如：从KAFKATopic中获取数据
-Pull拉取数据，进行数据处理，处理完成以后，应用本身管理更新offset。调用的KAFKA，底层的消费者API
+Pull拉取数据，进行数据处理，处理完成以后，应用本身管理更新offset。调用的KAFKA，底层的消费者API。主流
