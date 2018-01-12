@@ -24,7 +24,7 @@
 * `网址` http://blog.csdn.net/yujin2010good/article/details/54729818
 * `关键字` redis持久化
 * `推荐理由` 介绍redis持久化的两种方式，解释了小龙提出的“redis备份数据不能超过内存大小”的问题。
-## Cook's comment 2017/12/27
+## Cook's comment 2018/1/12
 ### `题目`  kafka架构介绍
 * `网址` http://blog.csdn.net/ghostlv/article/details/51226371
 * `关键字` kafka基本概念、架构介绍
